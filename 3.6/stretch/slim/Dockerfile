@@ -4,8 +4,8 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:stretch-slim
-
+#FROM debian:%%PLACEHOLDER%%
+FROM quay.io/spivegin/tlmbasedebian
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
 
